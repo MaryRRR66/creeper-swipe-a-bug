@@ -4,23 +4,23 @@ import TinderCard from 'react-tinder-card'
 const db = [
   {
     name: 'Karaluch',
-    url: './img/richard.jpg'
+    url: './img/1.jpg'
   },
   {
     name: 'Mól książkowy',
-    url: './img/erlich.jpg'
+    url: './img/1.jpg'
   },
   {
     name: 'Rybik cukrowy',
-    url: './img/monica.jpg'
+    url: './img/1.jpg'
   },
   {
     name: 'Kątnik',
-    url: './img/jared.jpg'
+    url: './img/1.jpg'
   },
   {
     name: 'Mrówka Faraonka',
-    url: './img/dinesh.jpg'
+    url: './img/1.jpg'
   }
 ]
 
