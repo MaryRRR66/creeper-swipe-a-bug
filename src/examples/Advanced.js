@@ -3,23 +3,23 @@ import TinderCard from 'react-tinder-card'
 
 const db = [
   {
-    name: 'Richard Hendricks',
+    name: 'Karaluch',
     url: './img/richard.jpg'
   },
   {
-    name: 'Erlich Bachman',
+    name: 'Mól ksiązkowy',
     url: './img/erlich.jpg'
   },
   {
-    name: 'Monica Hall',
+    name: 'Rybik cukrowy',
     url: './img/monica.jpg'
   },
   {
-    name: 'Jared Dunn',
+    name: 'Mrówka Faraonka',
     url: './img/jared.jpg'
   },
   {
-    name: 'Dinesh Chugtai',
+    name: 'Pluskwa',
     url: './img/dinesh.jpg'
   }
 ]
@@ -106,17 +106,17 @@ function Advanced () {
         ))}
       </div>
       <div className='buttons'>
-        <button style={{ backgroundColor: !canSwipe && '#c3c4d3' }} onClick={() => swipe('left')}>Swipe left!</button>
-        <button style={{ backgroundColor: !canGoBack && '#c3c4d3' }} onClick={() => goBack()}>Undo swipe!</button>
-        <button style={{ backgroundColor: !canSwipe && '#c3c4d3' }} onClick={() => swipe('right')}>Swipe right!</button>
+        <button style={{ backgroundColor: !canSwipe && '#c3c4d3' }} onClick={() => swipe('left')}>Przepadnij!</button>
+        <button style={{ backgroundColor: !canGoBack && '#c3c4d3' }} onClick={() => goBack()}>Hmm...</button>
+        <button style={{ backgroundColor: !canSwipe && '#c3c4d3' }} onClick={() => swipe('right')}>Wprowadź się!</button>
       </div>
       {lastDirection ? (
         <h2 key={lastDirection} className='infoText'>
-          You swiped {lastDirection}
+          Wybrałeś:  {lastDirection}
         </h2>
       ) : (
         <h2 className='infoText'>
-          Swipe a card or press a button to get Restore Card button visible!
+         Przesuń kartę współlokatora w prawo lub lewo
         </h2>
       )}
     </div>
