@@ -4,23 +4,23 @@ import TinderCard from 'react-tinder-card'
 const db = [
   {
     name: 'Karaluch',
-    url: './img/richard.jpg'
+    url: './img/1.jpg'
   },
   {
     name: 'Mól ksiązkowy',
-    url: './img/erlich.jpg'
+    url: './img/1.jpg'
   },
   {
     name: 'Rybik cukrowy',
-    url: './img/monica.jpg'
+    url: './img/1.jpg'
   },
   {
     name: 'Mrówka Faraonka',
-    url: './img/jared.jpg'
+    url: './img/1.jpg'
   },
   {
     name: 'Pluskwa',
-    url: './img/dinesh.jpg'
+    url: './img/1.jpg'
   }
 ]
 
@@ -86,7 +86,7 @@ function Advanced () {
         href='https://fonts.googleapis.com/css?family=Alatsi&display=swap'
         rel='stylesheet'
       />
-      <h1>React Tinder Card</h1>
+      <h1>Creeper</h1>
       <div className='cardContainer'>
         {db.map((character, index) => (
           <TinderCard
