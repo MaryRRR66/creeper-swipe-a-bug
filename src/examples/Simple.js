@@ -37,51 +37,23 @@ function Simple () {
     console.log(name + ' left the screen!')
   }
 
-return (
-  <div>
-    <link
-      href="https://fonts.googleapis.com/css?family=Damion&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Alatsi&display=swap"
-      rel="stylesheet"
-    />
-    <h1>Creeper</h1>
-
-    <div className="cardContainer">
-      {characters.map((character) => (
-        <TinderCard
-          className="swipe"
-          key={character.name}
-          onSwipe={(dir) => swiped(dir, character.name)}
-          onCardLeftScreen={() => outOfFrame(character.name)}
-        >
-          <div
-            style={{ backgroundImage: "url(" + character.url + ")" }}
-            className="card"
-          >
-            <h3>{character.name}</h3>
-          </div>
-        </TinderCard>
-      ))}
+  return (
+    <div>
+      <link href='https://fonts.googleapis.com/css?family=Damion&display=swap' rel='stylesheet' />
+      <link href='https://fonts.googleapis.com/css?family=Alatsi&display=swap' rel='stylesheet' />
+      <h1>Creeper</h1>
+      <div className='cardContainer'>
+        {characters.map((character) =>
+          <TinderCard className='swipe' key={character.name} onSwipe={(dir) => swiped(dir, character.name)} onCardLeftScreen={() => outOfFrame(character.name)}>
+            <div style={{ backgroundImage: 'url(' + character.url + ')' }} className='card'>
+              <h3>{character.name}</h3>
+            </div>
+          </TinderCard>
+        )}
+      </div>
+      {lastDirection ? <h2 className='infoText'>Wybrałeś {lastDirection}</h2> : <h2 className='infoText' />}
     </div>
-
-    {lastDirection ? (
-      <h2 className="infoText">
-        {lastDirection === "right" && "Przyjąłeś współlokatora"}
-        {lastDirection === "left" && "Odrzuciłeś współlokatora"}
-        {lastDirection === "down" &&
-          "Próbujesz go ignorować, ale on i tak zostaje"}
-        {lastDirection === "up" && "Zawieszone – decyzja do namysłu"}
-      </h2>
-    ) : (
-      <h2 className="infoText">
-        Przesuń: prawo – akceptacja, lewo – odrzucenie
-      </h2>
-    )}
-  </div>
-)
-
+  )
+}
 
 export default Simple

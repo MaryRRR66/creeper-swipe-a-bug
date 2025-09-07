@@ -112,16 +112,13 @@ function Advanced () {
       </div>
       {lastDirection ? (
         <h2 key={lastDirection} className='infoText'>
-          {lastDirection === 'right' && "Zaprosiłeś współlokatora"}
-          {lastDirection === 'left' && "Odrzuciłeś współlokatora"}
-          {lastDirection === 'up' && "Hmm... jeszcze się zastanawiasz"}
-          {lastDirection === 'down' && "Próbujesz ignorować sprawy"}
+          Wybrałeś:  {lastDirection}
         </h2>
-    ) : (
-      <h2 className='infoText'>
-        Przesuń kartę współlokatora w prawo lub lewo
-      </h2>
-    )}
+      ) : (
+        <h2 className='infoText'>
+         Przesuń kartę współlokatora w prawo lub lewo
+        </h2>
+      )}
     </div>
   )
 }
