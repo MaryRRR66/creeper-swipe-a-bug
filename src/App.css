@@ -52,13 +52,19 @@ h2 {
   position: absolute;
 }
 
-.cardContainer {
+/* .cardContainer {
   width: 90vw;
   max-width: 260px;
   height: 300px;
+} */
+
+.cardContainer {
+  width: 90vw;
+  max-width: 300px;   /* szerokość karty */
+  height: 400px;      /* wysokość karty (3:4 proporcja) */
 }
 
-.card {
+/* .card {
   position: relative;
   background-color: #fff;
   width: 80vw;
@@ -68,7 +74,21 @@ h2 {
   border-radius: 20px;
   background-size: cover;
   background-position: center;
+} */
+
+.card {
+  position: relative;
+  background-color: #fff;
+  width: 80vw;
+  max-width: 300px;   /* było 260px */
+  height: 400px;      /* było 300px */
+  box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.30);
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
 }
+
+
 
 .cardContent {
   width: 100%;
@@ -135,3 +155,6 @@ h2 {
   64%  { transform: scale(1,1) }
   100% { transform: scale(1,1) }
 }
+
+
+

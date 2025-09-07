@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/creeper-swipe-a-bug/static/css/main.edb81799.css",
+    "main.css": "/creeper-swipe-a-bug/static/css/main.75632e85.css",
     "main.js": "/creeper-swipe-a-bug/static/js/main.97970bd0.js",
     "index.html": "/creeper-swipe-a-bug/index.html",
-    "main.edb81799.css.map": "/creeper-swipe-a-bug/static/css/main.edb81799.css.map",
+    "main.75632e85.css.map": "/creeper-swipe-a-bug/static/css/main.75632e85.css.map",
     "main.97970bd0.js.map": "/creeper-swipe-a-bug/static/js/main.97970bd0.js.map"
   },
   "entrypoints": [
-    "static/css/main.edb81799.css",
+    "static/css/main.75632e85.css",
     "static/js/main.97970bd0.js"
   ]
 }
