@@ -115,7 +115,7 @@ function Advanced () {
           {lastDirection === 'right' && "Zaprosiłeś współlokatora"}
           {lastDirection === 'left' && "Odrzuciłeś współlokatora"}
           {lastDirection === 'up' && "Hmm... jeszcze się zastanawiasz"}
-          {lastDirection === 'down' && "Próbujesz igno"}
+          {lastDirection === 'down' && "Próbujesz ignorować sprawy"}
         </h2>
     ) : (
       <h2 className='infoText'>
