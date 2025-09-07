@@ -4,7 +4,7 @@ import TinderCard from 'react-tinder-card'
 const db = [
   {
     name: 'Karaluch',
-    url: './img/1.jpg'
+    url: './img/mrowa.jpg'
   },
   {
     name: 'Mól ksiązkowy',
