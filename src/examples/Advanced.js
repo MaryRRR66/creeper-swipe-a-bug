@@ -8,19 +8,19 @@ const db = [
   },
   {
     name: 'Mól ksiązkowy',
-    url: './img/1.jpg'
+    url: './img/mrowa.jpg'
   },
   {
     name: 'Rybik cukrowy',
-    url: './img/1.jpg'
+    url: './img/mrowa.jpg'
   },
   {
     name: 'Mrówka Faraonka',
-    url: './img/1.jpg'
+    url: './img/mrowa.jpg'
   },
   {
     name: 'Pluskwa',
-    url: './img/1.jpg'
+    url: './img/mrowa.jpg'
   }
 ]
 
