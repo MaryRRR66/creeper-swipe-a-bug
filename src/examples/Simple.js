@@ -3,8 +3,8 @@ import TinderCard from 'react-tinder-card'
 
 const db = [
   {
-    name: 'Rybik cukrowy',
-    url: './img/rybik.jpg'
+    name: ' ',
+    url: './img/final.jpg'
   },
   {
     name: 'Mól książkowy',
@@ -19,8 +19,8 @@ const db = [
     url: './img/karal.jpg'
   },
   {
-    name: ' ',
-    url: './img/final.jpg'
+    name: 'Rybik cukrowy',
+    url: './img/rybik.jpg'
   }
 ]
 
