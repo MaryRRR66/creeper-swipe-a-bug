@@ -3,24 +3,24 @@ import TinderCard from 'react-tinder-card'
 
 const db = [
   {
-    name: 'Karaluch',
-    url: './img/mrowa.jpg'
-  },
-  {
-    name: 'Mól ksiązkowy',
-    url: './img/mrowa.jpg'
-  },
-  {
     name: 'Rybik cukrowy',
+    url: './img/rybik.jpg'
+  },
+  {
+    name: 'Mól książkowy',
+    url: './img/mol.jpg'
+  },
+  {
+    name: 'Mrówka Faraona',
     url: './img/mrowa.jpg'
   },
   {
-    name: 'Mrówka Faraonka',
-    url: './img/mrowa.jpg'
+    name: 'Karaczan prusak',
+    url: './img/karal.jpg'
   },
   {
-    name: 'Pluskwa',
-    url: './img/mrowa.jpg'
+    name: ' ',
+    url: './img/final.jpg'
   }
 ]
 
